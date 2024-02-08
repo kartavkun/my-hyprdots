@@ -23,6 +23,11 @@ yay -S wofi waybar kitty pfetch spotify spicetify-cli swaylock wlogout sublime-t
 echo -e "$CYAN Cloning dotfiles repos...$CLEAR"
 git clone git@github.com:kartavkun/my-hyprdots.git $HOME/dotfiles
 
+# .bashrc config
+echo -e "$CYAN .bashrc configuration installing"
+cp -a $HOME/dotfiles/.bashrc $HOME/
+echo -e "$CYAN .bashrc configuration"
+
 # Kitty config
 if [ ! -d "$HOME/.config/kitty" ]; then
     echo -e "$CYAN kitty config directory doesn't exists, making it now..."
