@@ -14,7 +14,7 @@ Dotfiles and a bash script for easier setup of my personal linux environment
 - **Notification Center:** [Dunst](https://dunst-project.org)
 - **Application Launcher:** [wofi](https://sr.ht/~scoopta/wofi/)
 - **Theme:** [Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) 
-- **Icons:** [gruvbox-plus-icon-pack] (https://github.com/SylEleuth/gruvbox-plus-icon-pack)
+- **Icons:** [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack)
 - **Fonts:** [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and [Commissioner](https://github.com/kosbarts/Commissioner)
 - **Music Streaming Service:** [Spotify](https://spotify.com) with [Spicetify](https://spicetify.app)
 - **Browser:** [Chromium](https://www.chromium.org/chromium-projects)
