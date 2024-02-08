@@ -19,5 +19,5 @@ chmod +x installation.sh
 
 # Заметка
 - Все шорткаты находяться в файле `hypr/hpyrland.conf`
-- Конфиги [не совсем мои] (https://github.com/warpje5/hyprland-dotfiles-gruvbox/tree/main), но я их подредачил под себя
+- 
 - 

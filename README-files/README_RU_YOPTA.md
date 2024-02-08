@@ -19,5 +19,5 @@ chmod +x installation.sh
 
 # Заметка
 - Все бинды и прочую хуетень меняешь в файле `hypr/hpyrland.conf`
-- Конфиги [я спиздил] (https://github.com/warpje5/hyprland-dotfiles-gruvbox/tree/main), но я там напильничком потёр и они мои. Приебёшься, убью нах!
+- 
 - 
