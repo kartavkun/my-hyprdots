@@ -13,7 +13,7 @@ makepkg -si
 
 # Dependecies via pacman
 echo -e "$CYAN Installing dependencies with pacman... $CLEAR"
-sudo pacman -S  unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts
+sudo pacman -S  unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent
 
 # Dependecies via yay
 echo -e "$CYAN Installing dependencies with yay...$CLEAR"
