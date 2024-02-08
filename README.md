@@ -53,5 +53,18 @@ Shift+PrtSc - Screenshot a region
 ```
 
 # Notes
-- all shortcuts and bind you can change in `hypr/hpyrland.conf`. For newbies, you need to put this command: `nano .config/hypr/hyprland.conf`
-- 
+- All shortcuts and bind you can change in `hypr/hyprland.conf`
+- All wallpapers located in `~/.config/hypr`
+- If you haven't wallpaper applied, you need run these commands: 
+`
+killall hyprpaper
+hyprpaper
+`
+Then you see this:
+`
+[WARN] Monitor [your monitor] does not have a target! A wallpaper will not be created.
+`
+After that change config file `~/.config/hypr/hyprpaper`
+`
+wallpaper = monitor1,/path/to/image.png
+`
