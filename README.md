@@ -1,22 +1,22 @@
 # My Hyrpdots for Arch Linux and Arch-based systems
 Dotfiles and a bash script for easier setup of my personal linux environment
 
-[Русский](README-files/README_RU.md) | [Более понятный русский](README-files/README_RU_YOPTA.md)
+[English](https://github.com/kartavkun/my-hyprdots) | [Русский](https://github.com/kartavkun/ny-hyprdots-ru)
 
 # Dependencies
 - **WM:** [Hyprland](https://hyprland.org)
 - **Top Bar:** [Waybar](https://github.com/Alexays/Waybar)
 - **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
-- **Notification Center:** [Dunst] (https://dunst-project.org)
+- **Notification Center:** [Dunst](https://dunst-project.org)
 - **Application Launcher:** [wofi](https://sr.ht/~scoopta/wofi/)
-- **Theme:** [Gruvbox-GTK-Theme] (https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) 
+- **Theme:** [Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) 
 - **Icons:** [gruvbox-plus-icon-pack] (https://github.com/SylEleuth/gruvbox-plus-icon-pack)
-- **Fonts:** [Nerd Fonts] (https://github.com/ryanoasis/nerd-fonts) and [Commissioner] (https://github.com/kosbarts/Commissioner)
-- **Music Streaming Service:** [Spotify] (https://spotify.com) with [Spicetify] (https://spicetify.app)
-- **Browser:** [Chromium] (https://www.chromium.org/chromium-projects)
-- **File manager:** [Nemo] (https://github.com/linuxmint/nemo)
-- **Video player:** [mpv] (https://mpv.io)
-- **Text Editor:** [Sublime Text 4] (https://www.sublimetext.com)
+- **Fonts:** [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and [Commissioner](https://github.com/kosbarts/Commissioner)
+- **Music Streaming Service:** [Spotify](https://spotify.com) with [Spicetify](https://spicetify.app)
+- **Browser:** [Chromium](https://www.chromium.org/chromium-projects)
+- **File manager:** [Nemo](https://github.com/linuxmint/nemo)
+- **Video player:** [mpv](https://mpv.io)
+- **Text Editor:** [Sublime Text 4](https://www.sublimetext.com)
 
 # Installation
 Run these commands:
@@ -49,5 +49,5 @@ Shift+PrtSc - Screenshot a region
 ```
 
 # Notes
-- all shortcuts and bind you can change in `hypr/hpyrland.conf`. For newbies, you need to put this command: ```nano .config/hypr/hyprland.conf```
+- all shortcuts and bind you can change in `hypr/hpyrland.conf`. For newbies, you need to put this command: `nano .config/hypr/hyprland.conf`
 - 
