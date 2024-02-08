@@ -139,7 +139,8 @@ tooltip {
     border-width: 3px;
     border-style: solid;
     border-color: #ebdbb2;
-    border-left: 0px;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 6px;
     border-right: 0px;
     min-width: 24px;
 }
@@ -170,9 +171,9 @@ tooltip {
     border-width: 3px;
     border-style: solid;
     border-color: #ebdbb2; 
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
     margin-left: 6px;
-    border-right: 0px;
+    margin-right: 6px;
 }
 
 #network {
@@ -187,8 +188,9 @@ tooltip {
     border-width: 3px;
     border-style: solid;
     border-color: #ebdbb2;
-    border-left: 0px;
-    border-right: 12px;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 0px;
+    border-right: 0px;
 }
 
 #pulseaudio.microphone {
@@ -203,10 +205,14 @@ tooltip {
 }
 
 #battery {
-    color: #a6e3a1;
-    border-radius: 0 10px 10px 0;
-    margin-right: 10px;
+    background: #282828;
+    color: #ebdbb2;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ebdbb2;
+    border-radius: 0px 10px 10px 0px;
     border-left: 0px;
+    margin-right: 6px;
 }
 
 #custom-weather {
