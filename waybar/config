@@ -95,7 +95,7 @@
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
         "format-alt": "{time} {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
     "pulseaudio": {
         "format": "{icon} {volume}%",
@@ -125,5 +125,4 @@
         "on-scroll-down": "pamixer --default-source -d 5",
         "scroll-step": 5
 		}
-    },
-}
+    }
