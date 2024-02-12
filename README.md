@@ -25,8 +25,8 @@ Dotfiles and a bash script for easier setup of my personal linux environment
 # Installation
 Run these commands:
 ```
-git clone https://github.com/uyak0/dotfiles
-cd dotfiles
+git clone https://github.com/kartavkun/my-hyprdots
+cd my-hyprdots
 chmod +x installation.sh
 ./installation.sh
 ``` 
@@ -53,7 +53,7 @@ Shift+PrtSc - Screenshot a region
 ```
 
 # Notes
-- All shortcuts and bind you can change in `hypr/hyprland.conf`
+- All shortcuts and bind you can change in `~/.config/hypr/hyprland.conf`
 - All wallpapers located in `~/.config/hypr`
 - If you haven't wallpaper applied, you need run these commands: 
 `
