@@ -22,7 +22,7 @@ English | [Русский](https://github.com/kartavkun/my-hyprdots-ru) | [Го�
 - **File manager:** [Nemo](https://github.com/linuxmint/nemo)
 - **Video player:** [mpv](https://mpv.io)
 - **Text Editor:** [Sublime Text 4](https://www.sublimetext.com)
-- **Messenger:** [Telegram](https://desktop.telegram.org/) and [Discord](https://discord.com)
+- **Messengers:** [Telegram](https://desktop.telegram.org/) and [Discord](https://discord.com)
 
 # Installation
 Run these commands:
