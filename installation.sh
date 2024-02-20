@@ -21,12 +21,12 @@ yay -S wofi waybar kitty pfetch spotify spicetify-cli swaylock wlogout sublime-t
 
 # .bashrc config
 echo -e "$CYAN .bashrc configuration installing"
-cp -rv $HOME/my-hyprdots/.bashrc $HOME/
+cp $HOME/my-hyprdots/.bashrc $HOME/
 echo -e "$CYAN .bashrc configuration"
 
 # Kitty config
 echo -e "$CYAN Installing kitty configurations..."    
-cp -rv $HOME/my-hyprdots/kitty $HOME/.config/kitty
+cp $HOME/my-hyprdots/kitty $HOME/.config/kitty
 echo -e "$CYAN kitty configuration installed!"
 
 
@@ -37,56 +37,56 @@ echo -e "$CYAN Making themes directory"
 mkdir $HOME/.themes
 mkdir $HOME/.themes/Gruvbox-Dark-BL
 echo -e "$CYAN Installing the theme"
-cp -rv $HOME/my-hyprdots/Gruvbox-Dark-BL $HOME/.themes/Gruvbox-Dark-BL
+cp $HOME/my-hyprdots/Gruvbox-Dark-BL $HOME/.themes/Gruvbox-Dark-BL
 echo -e "$CYAN Apply settings"
-cp -rv $HOME/my-hyprdots/gtk-3.0 $HOME/.config/gtk-3.0
+cp $HOME/my-hyprdots/gtk-3.0 $HOME/.config/gtk-3.0
 echo -e "$CYAN Theme installed"
 
 # waybar config
 echo -e "$CYAN Installing waybar configurations..."    
-cp -rv $HOME/my-hyprdots/waybar $HOME/.config/waybar
+cp $HOME/my-hyprdots/waybar $HOME/.config/waybar
 echo -e "$CYAN waybar configuration installed!"
 
 # Hyprland config
 echo -e "$CYAN hypr config directory already exists, installing hyprland configurations..."
-cp -rv $HOME/my-hyprdots/hypr/ $HOME/.config/hypr
+cp $HOME/my-hyprdots/hypr/ $HOME/.config/hypr
 echo -e "$CYAN hyprland configuration installed!"
 
 
 # dunst config
 echo -e "$CYAN dunst config directory made! Installing dunst configurations..."    
-cp -rv $HOME/my-hyprdots/dunst $HOME/.config/dunst
+cp $HOME/my-hyprdots/dunst $HOME/.config/dunst
 echo -e "$CYAN dunst configuration installed!"
 
 # Kvantum config
 echo -e "$CYAN kvantum config directory already exists, installing kvantum configurations..."
-cp -rv $HOME/my-hyprdots/kvantum $HOME/.config/kvantum
+cp $HOME/my-hyprdots/kvantum $HOME/.config/kvantum
 echo -e "$CYAN kvantum configuration installed!"
 
 # neofetch config
 echo -e "$CYAN installing neofetch configurations..."
-cp -rv $HOME/my-hyprdots/neofetch $HOME/.config/neofetch
+cp $HOME/my-hyprdots/neofetch $HOME/.config/neofetch
 echo -e "$CYAN neofetch configuration installed!"
 
 # spicetify config
 echo -e "$CYAN installing spicetify configurations..."
-cp -rv $HOME/my-hyprdots/spicetify $HOME/.config/spicetify
+cp $HOME/my-hyprdots/spicetify $HOME/.config/spicetify
 echo -e "$CYAN spicetify configuration installed!"
 
 
 # wofi config
 echo -e "$CYAN installing wofi configurations..."
-cp -rv $HOME/my-hyprdots/wofi $HOME/.config/wofi
+cp $HOME/my-hyprdots/wofi $HOME/.config/wofi
 echo -e "$CYAN wofi configuration installed!"
 
 # wlogout config
 echo -e "$CYAN installing wlogout configurations..."
-cp -rv $HOME/my-hyprdots/wlogout $HOME/.config/wlogout
+cp $HOME/my-hyprdots/wlogout $HOME/.config/wlogout
 echo -e "$CYAN wlogout configuration installed!"
 
 
 # swaylock config
 echo -e "$CYAN installing swaylock configurations..."
-cp -rv $HOME/my-hyprdots/swaylock $HOME/.config/swaylock
+cp $HOME/my-hyprdots/swaylock $HOME/.config/swaylock
 echo -e "$CYAN swaylock configuration installed!"
 
