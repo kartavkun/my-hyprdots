@@ -13,11 +13,11 @@ makepkg -si
 
 # Dependecies via pacman
 echo -e "$CYAN Installing dependencies with pacman... $CLEAR"
-sudo pacman -S  gtk3 unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent pavucontrol
+sudo pacman -S  gtk3 unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent pavucontrol telegram-desktop
 
 # Dependecies via yay
 echo -e "$CYAN Installing dependencies with yay...$CLEAR"
-yay -S wofi waybar kitty pfetch spotify spicetify-cli swaylock wlogout sublime-text-4 ttf-commissioner gruvbox-plus-icon-theme-git lxappearance
+yay -S wofi waybar kitty pfetch spotify spicetify-cli swaylock wlogout sublime-text-4 ttf-commissioner gruvbox-plus-icon-theme-git lxappearance discord-screenaudio
 
 # .bashrc config
 echo -e "$CYAN .bashrc configuration installing"
