@@ -1,7 +1,8 @@
 # My Hyrpdots for Arch Linux and Arch-based systems
 Dotfiles and a bash script for easier setup of my personal linux environment
 
-[English](https://github.com/kartavkun/my-hyprdots) | [Русский](https://github.com/kartavkun/my-hyprdots-ru)
+English | [Русский](https://github.com/kartavkun/my-hyprdots-ru) | [Гоп-язык](https://github.com/kartavkun/my-hyprdots-ru/blob/main/README-YOPTA.md)
+
 
 # Screenshots
 ![alt](https://cdn.discordapp.com/attachments/952914055495024660/1204975467669495858/2024-02-08-070518_hyprshot.png?ex=65d6afda&is=65c43ada&hm=6c04cd78545b603b1b7ee33233b0f4afa6ef7387f62346b454f887ffae15bd54&)
