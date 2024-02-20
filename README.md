@@ -21,6 +21,7 @@ Dotfiles and a bash script for easier setup of my personal linux environment
 - **File manager:** [Nemo](https://github.com/linuxmint/nemo)
 - **Video player:** [mpv](https://mpv.io)
 - **Text Editor:** [Sublime Text 4](https://www.sublimetext.com)
+- **Messenger:** [Telegram](https://desktop.telegram.org/) and [Discord](https://discord.com)
 
 # Installation
 Run these commands:
@@ -66,5 +67,5 @@ Then you see this:
 `
 After that change config file `~/.config/hypr/hyprpaper`
 `
-wallpaper = monitor1,/path/to/image.png
+wallpaper = [your monitor],/path/to/image.png
 `
