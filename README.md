@@ -70,3 +70,7 @@ After that change config file `~/.config/hypr/hyprpaper`
 `
 wallpaper = [your monitor],/path/to/image.png
 `
+
+# To-do:
+- Make config for PC
+- Make a choice for PC and laptop configs
