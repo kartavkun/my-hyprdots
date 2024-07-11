@@ -11,13 +11,9 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-# Dependecies via pacman
-echo -e "$CYAN Installing dependencies with pacman... $CLEAR"
-sudo pacman -S  gtk3 unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent pavucontrol telegram-desktop
-
 # Dependecies via yay
 echo -e "$CYAN Installing dependencies with yay...$CLEAR"
-yay -S wofi waybar kitty pfetch spotify spicetify-cli swaylock wlogout sublime-text-4 ttf-commissioner gruvbox-plus-icon-theme-git lxappearance discord-screenaudio
+yay -S wofi waybar kitty pfetch spotify spicetify-cli wlogout sublime-text-4 ttf-commissioner gruvbox-plus-icon-theme-git lxappearance vesktop pamixer gtk3 unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent pavucontrol telegram-desktop
 
 # .bashrc config
 echo -e "$CYAN .bashrc configuration installing"
@@ -71,6 +67,9 @@ echo -e "$CYAN neofetch configuration installed!"
 # spicetify config
 echo -e "$CYAN installing spicetify configurations..."
 cp -r $HOME/my-hyprdots/spicetify $HOME/.config/
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
+spicetify backup apply
 echo -e "$CYAN spicetify configuration installed!"
 
 
@@ -83,10 +82,3 @@ echo -e "$CYAN wofi configuration installed!"
 echo -e "$CYAN installing wlogout configurations..."
 cp -r $HOME/my-hyprdots/wlogout $HOME/.config/
 echo -e "$CYAN wlogout configuration installed!"
-
-
-# swaylock config
-echo -e "$CYAN installing swaylock configurations..."
-cp -r $HOME/my-hyprdots/swaylock $HOME/.config/
-echo -e "$CYAN swaylock configuration installed!"
-

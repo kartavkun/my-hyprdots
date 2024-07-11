@@ -5,8 +5,8 @@ English | [Русский](https://github.com/kartavkun/my-hyprdots-ru) | [Го�
 
 
 # Screenshots
-![alt](https://cdn.discordapp.com/attachments/952914055495024660/1204975467669495858/2024-02-08-070518_hyprshot.png?ex=65d6afda&is=65c43ada&hm=6c04cd78545b603b1b7ee33233b0f4afa6ef7387f62346b454f887ffae15bd54&)
-![alt text](https://cdn.discordapp.com/attachments/952914055495024660/1204975467204050944/2024-02-08-070455_hyprshot.png?ex=65d6afda&is=65c43ada&hm=e9787032b9e6e20890773f7e234074e8c1c32158639c0af5d86ad7140e29df57&)
+![alt](/photos/w.out_apps.png)
+![alt text](/photos/w_apps.png)
 
 # Dependencies
 - **WM:** [Hyprland](https://hyprland.org)
@@ -42,7 +42,7 @@ SUPER+Q - Close active program
 SUPER+R - Open Application Launcher menu
 SUPER+L - Open wlogout
 SUPER+F - Open Browser
-SUPER+A - Clipboard history
+SUPER+V - Make floating mode to active program (Like window)
 SUPER+Tab - Change workspace (1st to 2nd, 2nd to 3rd, etc.) with active program
 SUPER+Shift+Tab - Change workspace (3rd to 2nd, 2nd to 1st, etc.) with active program
 ```
@@ -59,12 +59,12 @@ Shift+PrtSc - Screenshot a region
 - All wallpapers located in `~/.config/hypr`
 - If you haven't wallpaper applied, you need run these commands: 
 `
-killall hyprpaper
-hyprpaper
+hyprctl monitors all
 `
-Then you see this:
+Then you see your monitor, for example (DP-0, HDMI-A-0, etc.):
 `
-[WARN] Monitor [your monitor] does not have a target! A wallpaper will not be created.
+Monitor [your monitor] (ID 0):
+	1920x1080@60.00000 at 0x0
 `
 After that change config file `~/.config/hypr/hyprpaper`
 `
