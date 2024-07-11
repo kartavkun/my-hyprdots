@@ -4,6 +4,8 @@
 CYAN="\e[34m"
 CLEAR="\e[0m"
 
+
+
 # Installing yay
 echo -e "$CYAN Installing yay... $CLEAR"
 sudo pacman -S --needed git base-devel
