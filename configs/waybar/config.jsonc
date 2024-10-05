@@ -41,6 +41,17 @@
     "hyprland/language": {
         "format-en": "en",
         "format-ru": "ru",
+        "format-ua": "ua",
+        "format-kz": "kz",
+        "format-by": "by",
+        "format-es": "es",
+        "format-fr": "fr",
+        "format-pt": "pt",
+        "format-de": "de",
+        "format-pl": "pl",
+        "format-it": "it",
+        "format-kr": "kr",
+        "format-jp": "jp",
     },
     "tray": {
         "icon-size": 16,
