@@ -5,7 +5,7 @@ English | [Русский](https://github.com/kartavkun/my-hyprdots-ru) | [Го�
 
 
 # Screenshots
-![alt](/photos/w.out_apps.png)
+![alt](/photos/w_out_apps.png)
 ![alt text](/photos/w_apps.png)
 
 # Dependencies
