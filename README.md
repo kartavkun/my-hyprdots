@@ -1,9 +1,6 @@
 # My Hyrpdots for Arch Linux and Arch-based systems
 Dotfiles and a bash script for easier setup of my personal linux environment
 
-English | [Русский](https://github.com/kartavkun/my-hyprdots-ru) | [Гоп-язык](https://github.com/kartavkun/my-hyprdots-ru/blob/main/README-YOPTA.md)
-
-
 # Screenshots
 ![alt](/photos/w_out_apps.png)
 ![alt text](/photos/w_apps.png)
@@ -25,12 +22,9 @@ English | [Русский](https://github.com/kartavkun/my-hyprdots-ru) | [Го�
 - **Messengers:** [Telegram](https://desktop.telegram.org/) and [Discord](https://discord.com)
 
 # Installation
-Run these commands:
+Run this command:
 ```
-git clone https://github.com/kartavkun/my-hyprdots
-cd my-hyprdots
-chmod +x installation.sh
-./installation.sh
+curl -O https://raw.githubusercontent.com/kartavkun/my-hyprdots/main/setup.sh
 ``` 
 
 # Binds
