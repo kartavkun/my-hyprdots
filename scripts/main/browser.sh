@@ -3,26 +3,22 @@
 ins_chromium(){
     yay -S chromium
 
-  echo "$browser = chromium" | tee -a ~/.config/hypr/hyprcfgs/my_programs.conf
-  echo "exec-once = [workspace 2 silent] $browser" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
+  echo "exec-once = [workspace 2 silent] chromium" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
 }
 ins_furryfox(){
     yay -S firefox
 
-  echo "$browser = firefox" | tee -a ~/.config/hypr/hyprcfgs/my_programs.conf
-  echo "exec-once = [workspace 2 silent] $browser" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
+  echo "exec-once = [workspace 2 silent] firefox" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
 }
 ins_vivaldi(){
     yay -S vivaldi
 
-  echo "$browser = vivaldi" | tee -a ~/.config/hypr/hyprcfgs/my_programs.conf
-  echo "exec-once = [workspace 2 silent] $browser" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
+  echo "exec-once = [workspace 2 silent] vivaldi" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
 }
 ins_edge(){
   yay -S microsoft-edge-stable
 
-  echo "$browser = microsoft-edge-stable" | tee -a ~/.config/hypr/hyprcfgs/my_programs.conf
-  echo "exec-once = [workspace 2 silent] $browser" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
+  echo "exec-once = [workspace 2 silent] microsoft-edge-stable" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
 }
 
 while true; do
