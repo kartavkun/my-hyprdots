@@ -16,6 +16,11 @@ return {
     'IogaMaster/neocord',
     event = "VeryLazy"
   },
+  {
+    'tribela/transparent.nvim',
+    event = 'VimEnter',
+    config = true,
+  }
 
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
