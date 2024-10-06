@@ -37,10 +37,22 @@ while true; do
   read browser_choice
 
   case "$browser_choice" in
-    1) ins_chromium;;
-    2) ins_furryfox;;
-    3) ins_vivaldi;;
-    4) ins_edge;;
+    1)
+      ins_chromium
+      break
+      ;;
+    2)
+      ins_furryfox
+      break
+      ;;
+    3)
+      ins_vivaldi
+      break
+      ;;
+    4)
+      ins_edge
+      break
+      ;;
     *) echo "I don't understand you";;
   esac
 done
