@@ -1,24 +1,24 @@
 #/bin/bash
 
 ins_chromium(){
-    yay -S chromium
+  yay -S chromium
 
-  echo "exec-once = [workspace 2 silent] chromium" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
+  sed -i 's/change-browser/chromium/g' ~/.config/hypr/hyprcfgs/my_programs.conf
 }
 ins_furryfox(){
-    yay -S firefox
+  yay -S firefox
 
-  echo "exec-once = [workspace 2 silent] firefox" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
+  sed -i 's/change-browser/firefox/g' ~/.config/hypr/hyprcfgs/my_programs.conf
 }
 ins_vivaldi(){
-    yay -S vivaldi
+  yay -S vivaldi
 
-  echo "exec-once = [workspace 2 silent] vivaldi" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
+  sed -i 's/change-browser/vivaldi/g' ~/.config/hypr/hyprcfgs/my_programs.conf
 }
 ins_edge(){
   yay -S microsoft-edge-stable
 
-  echo "exec-once = [workspace 2 silent] microsoft-edge-stable" | tee -a ~/.config/hypr/hyprcfgs/autostart.conf
+  sed -i 's/change-browser/microsoft-edge-stable/g' ~/.config/hypr/hyprcfgs/my_programs.conf
 }
 
 while true; do
