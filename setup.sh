@@ -5,6 +5,7 @@ run_script(){
 
   git clone https://github.com/kartavkun/my-hyprdots ~/dotfiles
   chmod +x ~/dotfiles/scripts/install.sh
+  ~/dotfiles/scripts/install.sh
 }
 
 
