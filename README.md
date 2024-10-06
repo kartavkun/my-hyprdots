@@ -24,7 +24,7 @@ Dotfiles and a bash script for easier setup of my personal linux environment
 # Installation
 Run this command:
 ```
-curl -O https://raw.githubusercontent.com/kartavkun/my-hyprdots/main/setup.sh
+bash <(curl -fsSL https://raw.githubusercontent.com/kartavkun/my-hyprdots/main/setup.sh)
 ``` 
 
 # Binds
