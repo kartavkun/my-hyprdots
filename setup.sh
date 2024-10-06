@@ -4,7 +4,7 @@ run_script(){
   sudo pacman -S git go base-devel
 
   git clone https://github.com/kartavkun/my-hyprdots ~/dotfiles
-  chmod +x ~/dotfiles/install.sh
+  chmod +x ~/dotfiles/scripts/install.sh
 }
 
 
