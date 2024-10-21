@@ -20,6 +20,11 @@ ins_edge(){
 
   sed -i 's/change-browser/microsoft-edge-stable/g' ~/.config/hypr/hyprcfgs/my_programs.conf
 }
+ins_libre(){
+  yay -S librewolf-bin
+
+  sed -i 's/change-browser/librewolf/g' ~/.config/hypr/hyprcfgs/my_programs.conf
+}
 
 while true; do
 
@@ -29,6 +34,7 @@ while true; do
   echo "2 - Firefox"
   echo "3 - Vivaldi"
   echo "4 - Microsoft Edge"
+  echo "5 - Librewolf"
 
   read browser_choice
 
@@ -48,6 +54,10 @@ while true; do
     4)
       ins_edge
       break
+      ;;
+    5)
+      ins_libre
+      break 
       ;;
     *) echo "I don't understand you";;
   esac
