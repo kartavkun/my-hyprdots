@@ -6,7 +6,7 @@
 local M = {}
 
 M.ui = {
-  transparency = false,
+  transparency = true,
 }
 
 M.nvdash = {
