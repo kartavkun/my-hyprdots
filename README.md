@@ -1,24 +1,25 @@
 # My Hyrpdots for Arch Linux and Arch-based systems
 Dotfiles and a bash script for easier setup of my personal linux environment
 
+<!-- TODO: Сделать перевод README.md на русский и тюремный :D-->
+
 # Screenshots
 ![alt](/photos/w_out_apps.png)
 ![alt text](/photos/w_apps.png)
 
 # Dependencies
 - **WM:** [Hyprland](https://hyprland.org)
-- **Top Bar:** [Waybar](https://github.com/Alexays/Waybar)
+- **Bar:** [Waybar](https://github.com/Alexays/Waybar)
 - **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
 - **Notification Center:** [Dunst](https://dunst-project.org)
-- **Application Launcher:** [wofi](https://sr.ht/~scoopta/wofi/)
+- **Application Launcher:** [rofi](https://sr.ht/~scoopta/wofi/)
 - **Theme:** [BlackAndWhite](https://www.opencode.net/infinity64/blackandwhite-gtk)
 - **Icons:** [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack)
 - **Fonts:** [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 - **Music Streaming Service:** [Spotify](https://spotify.com) with [Spicetify](https://spicetify.app)
-- **Browser:** [Chromium](https://www.chromium.org/chromium-projects)
 - **File manager:** [Nemo](https://github.com/linuxmint/nemo)
 - **Video player:** [mpv](https://mpv.io)
-- **Text Editor:** [Sublime Text 4](https://www.sublimetext.com)
+- **Text Editor:** [Sublime Text 4](https://www.sublimetext.com) and [Neovim](https://neovim.io)
 - **Messengers:** [Telegram](https://desktop.telegram.org/) and [Discord](https://discord.com)
 
 # Installation
@@ -34,9 +35,14 @@ bash <(curl -fsSL https://raw.githubusercontent.com/kartavkun/my-hyprdots/main/s
 SUPER+Enter - Open Terminal
 SUPER+Q - Close active program
 SUPER+R - Open Application Launcher menu
-SUPER+Shift+L - Open wlogout
+SUPER+Shift+L - Open powermenu
+SUPER+Shift+R - Open run menu
+SUPER+A - Open Clipboard
+SUPER+SHIFT+A - Clear Clipboard
 SUPER+F - Open Browser
+SUPER+T - Open file manager
 SUPER+V - Make floating mode to active program (Like window)
+SUPER+M - Fullscreen mode to active window
 SUPER+Tab - Change workspace (1st to 2nd, 2nd to 3rd, etc.) with active program
 SUPER+Shift+Tab - Change workspace (3rd to 2nd, 2nd to 1st, etc.) with active program
 ```
