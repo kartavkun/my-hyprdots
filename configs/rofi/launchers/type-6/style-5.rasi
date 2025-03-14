@@ -23,6 +23,7 @@ configuration {
 * {
     font:                        "JetBrains Mono Nerd Font 10";
     background:                  #231419;
+    /* background:                  #000000;*/
     background-alt:              #2D1E23;
     foreground:                  #FFFFFF;
     selected:                    #426647;
